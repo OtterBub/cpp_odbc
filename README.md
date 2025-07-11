@@ -86,7 +86,7 @@ Windows에서 프로젝트를 컴파일하려면 **Visual Studio용 개발자 �
 3. `nmake` 명령을 실행하여 실행 파일을 빌드합니다:
 
     ```sh
-    nmake
+    nmake -f Makefile.win
     ```
 
     이 명령은 `main.cpp`를 컴파일하고 `main.exe`를 생성합니다.
